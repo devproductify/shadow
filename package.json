@@ -1,0 +1,32 @@
+{
+  "name": "@accelerator_one/shadow",
+  "version": "1.0.1",
+  "description": "CLI utilility to encrypt / decrypt sensitive files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "cli",
+    "crypto"
+  ],
+  "bin": {
+    "shadow": "index.js"
+  },
+  "author": "Aditya Thakur",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^8.1.0",
+    "crypto-js": "^4.1.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Accelerator-One/text-encryptor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Accelerator-One/text-encryptor/issues"
+  },
+  "homepage": "https://github.com/Accelerator-One/text-encryptor#readme"
+}
