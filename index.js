@@ -34,7 +34,7 @@ async function main(cmd, opts) {
 // Metadata
 program
   .name('shadow')
-  .version('1.0.1');
+  .version('1.0.2');
 
 // Argument(s)
 program
